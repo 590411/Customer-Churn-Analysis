@@ -65,10 +65,9 @@ EDA involved exploring  the data to answer key question , such as :
 ### Data analysis
 ---
 
-# MYSQL NET REVENUE QUERY
+#### MYSQL NET REVENUE QUERY
 
 ```
-MYSQL NET REVENUE QUERY
 
 SET sql_mode = '';
 SELECT
