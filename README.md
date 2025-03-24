@@ -68,10 +68,10 @@ EDA involved exploring  the data to answer key question , such as :
 
 ### Data analysis
 ---
-#### MYSQL NET REVENUE QUERY
-
 
 ```
+-- MYSQL NET REVENUE QUERY
+
 SET sql_mode = '';
 SELECT
 	p.purchase_id, 
@@ -108,7 +108,7 @@ ORDER by p.purchase_date
 ```
 
 ```
-RESURRECTED USER QUERY
+--RESURRECTED USER QUERY
 
 
 SET sql_mode = '';
@@ -148,8 +148,7 @@ GROUP BY s1.student_id
 ;
 
 ```
-
-		
+	
 ### Findings
 ---
 
