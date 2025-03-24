@@ -24,10 +24,14 @@ Analysis of Customer Churn and retention on a subscription-based platform . The 
   	-What net revenue  does the company generate and how does it compare to previous periods
 	-What is the company refund rates and how does it compare to the industry benchmarks
 	-What is the company customer retention rates and how does it differ between the subscription plan and the customer segment 
+ 
+![Screenshot 2025-03-24 225610](https://github.com/user-attachments/assets/e04ce616-b930-4b84-b7f8-8b158c4dafa4)
+  
+![Screenshot 2025-03-24 225627](https://github.com/user-attachments/assets/c2c8691e-48ad-47da-9c9e-bbb445a2f27e)
 
-   
+![Screenshot 2025-03-24 225639](https://github.com/user-attachments/assets/5588ca18-7b56-4609-a1eb-ddecfa00f024)
 
-![5](https://github.com/user-attachments/assets/f4cff69b-3db1-4738-830c-4cdd7138462f)
+![Screenshot 2025-03-24 225648](https://github.com/user-attachments/assets/1bf58900-fe31-4fbb-bf85-da07e82eb223)
 
 
  ### Data sources
@@ -142,6 +146,8 @@ WHERE
     DATEDIFF(s2.created_date, s1.end_date) > 1
 GROUP BY s1.student_id
 ;
+
+```
 
 		
 ### Findings
