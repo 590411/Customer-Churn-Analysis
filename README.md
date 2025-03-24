@@ -21,7 +21,7 @@ Analysis of Customer Churn and retention on a subscription-based platform . The 
 
 
 ---- **Delivrables(The main KPI)**
-  -What net revenue  does the company generate and how does it compare to previous periods
+  	-What net revenue  does the company generate and how does it compare to previous periods
 	-What is the company refund rates and how does it compare to the industry benchmarks
 	-What is the company customer retention rates and how does it differ between the subscription plan and the customer segment 
 
@@ -39,10 +39,10 @@ Analysis of Customer Churn and retention on a subscription-based platform . The 
 ---
 
   - MySQL/SQL: Data cleaning and preparation
-  - Excel : Loading (transition between MySQL and Tableau)
-  - Tableau : Building the model
-  - Tableau : Calculating mesures
-  - Tableau  : Dynamic visualisation , dashbaord and story
+  - Excel    : Loading (transition between MySQL and Tableau)
+  - Tableau  : Building the model
+  - Tableau  : Calculating mesures
+  - Tableau  : Dynamic visualisation ,Dashbaord and Story
      
 
 ### Data cleaning 
@@ -65,7 +65,8 @@ EDA involved exploring  the data to answer key question , such as :
 ### Data analysis
 ---
 
-```MYSQL NET REVENUE QUERY
+```
+MYSQL NET REVENUE QUERY
 
 SET sql_mode = '';
 SELECT
@@ -103,7 +104,8 @@ ORDER by p.purchase_date
 
 ```
 
-```RESURRECTED USER QUERY
+```
+RESURRECTED USER QUERY
 
 
 SET sql_mode = '';
@@ -147,10 +149,15 @@ GROUP BY s1.student_id
 ### Findings
 ---
 
--- On the business over view we are able to dive in the performance by store , category and brand of bed that the company sells.
+	*Base on our report , we can conclude that our revenue in October 2022 is 95,982$
+
+	*In April 2020  we had the highest sales as a free long access to the platform due to Covid , to enable students and other clients to update their skills
+
+	*From the bubble chart we see that half of the resurrection comes from subscribers that had an  annual plan instead
+
+	*Base on the revenue by country , we can see that Canada and great Britain has the highest AOv, this means we can target country with highest AOE and offer upgrades during our campaigns .For country that has lower AOV, this means that the price is to high for them , as incentives we can offer special discount for them
  
--- On the store  performance overview , we are able to see which day of the week generated the most sale , performance of each category on the business . 
-   Also we can assess the performance of each manager responsible for the store at any given period
+
  
 
 💻💻  
